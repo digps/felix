@@ -23,6 +23,9 @@ cleanup branch, make "main" the only content of repo
 ```
 git filter-branch --subdirectory-filter main/ --
 ```
+```
+git remote add digfelix git@github.com:digps/felix.git
+```
 
 now push it to our github repo.
 ```
